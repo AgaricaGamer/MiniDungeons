@@ -112,7 +112,7 @@ class Main extends PluginBase implements Listener{
                 $block->getLevelNonNull()->setBlock($block->asVector3(), Block::get(Block::BEDROCK));
                 $this->getScheduler()->scheduleDelayedTask(new DelayTask($this, $block), 20 * $this->config->get("delay"));
             } elseif($block->getId() === Block::REDSTONE_ORE && $this->config->get("redstone_ore") === true){
-                foreach ($event->getDrops() as $drop) {
+                foreach ($event->getDrops() as $drop) {;
                     $event->getPlayer()->getInventory()->addItem($drop);
                 }
                 $event->setDrops([]);
