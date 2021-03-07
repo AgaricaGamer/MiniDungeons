@@ -1,1 +1,21 @@
+---
+#The Delay On Which It Will Change Blocks
+"delay": 60
 
+#The Name Of World On Which This Plugin Works 
+
+
+"levelname": "world"
+
+##Do Not Add Any More Value Here
+
+"coal_ore": true
+"iron_ore": true
+"gold_ore": true
+"diamond_ore": true
+"emerald_ore": true
+"quartz_ore": true
+"redstone_ore": true
+"lapis_ore": true
+"stone": true
+...
