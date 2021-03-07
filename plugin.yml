@@ -1,4 +1,4 @@
-name: Dungeon
+name: MiniDungeon
 version: 1
-main: MasApip\Dungeon\Main
+main: Agamer\Dungeon\Main
 api: 3.0.0
