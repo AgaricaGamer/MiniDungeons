@@ -1,0 +1,4 @@
+name: Dungeon
+version: 1
+main: MasApip\Dungeon\Main
+api: 3.0.0
