@@ -1,4 +1,4 @@
 name: MiniDungeon
 version: 1
-main: Agamer\Dungeon\Main
+main: Agamer\MiniDungeon\Main
 api: 3.0.0
