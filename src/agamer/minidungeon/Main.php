@@ -1,6 +1,6 @@
 <?php
 
-namespace Agamer\Dungeon;
+namespace Agamer\MiniDungeon;
 
 use pocketmine\block\Block;
 use pocketmine\event\block\BlockBreakEvent;
