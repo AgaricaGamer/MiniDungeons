@@ -1,6 +1,6 @@
 <?php
 
-namespace Agamer\MiniDungeon;
+namespace MasApip\Dungeon;
 
 use pocketmine\block\Block;
 use pocketmine\scheduler\Task;
