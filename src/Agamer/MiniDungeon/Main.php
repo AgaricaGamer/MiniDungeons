@@ -33,5 +33,5 @@ class Main extends PluginBase implements Listener{
                 $player->addXp($event->getXpDropAmount());
                 $block->getLevelNonNull()->setBlock($block->asVector3(), Block::get(Block::BEDROCK));
                 $this->getScheduler()->scheduleDelayedTask(new DelayTask($this, $block), 20 * $this->config->get("delay"));
-            } elseif($block->getId() === Block::IRON_ORE && $this->config->get("iron_ore") === true){
+              elseif($block->getId() === Block::IRON_ORE && $this->config->get("iron_ore") === true){
       
